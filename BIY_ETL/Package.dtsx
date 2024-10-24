@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="110"
-  DTS:VersionGUID="{5160D399-E409-4D7B-B91A-E4638D670807}">
+  DTS:VersionBuild="112"
+  DTS:VersionGUID="{A2633998-3CF6-4CA4-B4D2-958E38AFEF58}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAamOrpGQSmUenmrOJ+vU3mQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAALVEKkpEXVHwNVq34Kn/OIh1SzuTtLPZ2zlSn4ClLdNAAAAAAOgAAAAAIAACAAAABSXJXHnTFYB53ZRTuWgmTUOULIZ+I78LHq/f7UaGXaniAAAACRX8I1pr/9R92mmNa3CSv3qtEVkvnk09BfEIWdm9NG9kAAAADSPLjyc7JzB0QtQv8A2EM0rNE9E+I55OAiHT+bgOlouZLmEHLFdjzfrd9SuVArJ9lLHXHm2+SkEsvLrngUtzmU</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAamOrpGQSmUenmrOJ+vU3mQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC3vrvKRLfHwt4oUW5NdEWVzWFSP9sEUQ+eG1y27xo+xQAAAAAOgAAAAAIAACAAAADaws7QKZn/iC8fE0glL40QDOHTY0XPzRnFRV8hNoNxzCAAAAAkTDuZDYEoHLd+wRwyG9UdDzlE3pl5zLO1I5BL+S2/FkAAAACgxDW8qc42gAjJm/mBf+VdasbX5F6qh98AN2al2stNybLlJGv/mmSev/Hq/81r/RArpHMDzUySLpSXexEts2ce</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAamOrpGQSmUenmrOJ+vU3mQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA56uGmHfO1ooQaMRwHrCoF8dAR64DNau9ysEJeLkmZJQAAAAAOgAAAAAIAACAAAACvgWMr2fiHAukjOqQfmIi+QiZUhOD7GnXbAtgo6qfcaSAAAADmxf3edGMpmr+DSDXQbHmy8T2nEcbqPiVZQtWQrHoDRkAAAAAzGrEPRXHZRJ+4Mcnqh1Wv8rEjKe1nr7M/a4kuINV3OzREozS4wzTPZc3ShHdVN/GFWw3257w4XeTJm7QT7RJN</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAamOrpGQSmUenmrOJ+vU3mQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAt7M0nwzNRB4cSSgnD0LVWEXEADMNAcSawxkbwyAkfbAAAAAAOgAAAAAIAACAAAACoRfpqThDmOSW73xZwEp4LygxANJO2H6izuwZZ/bIyACAAAADNyT3sZv/UBoxCm30yJ2xdY6DAvBOVw3MFTpRjwz4LKUAAAADE7656jouKu7hzXKQ/5j+jT+30xoTfJ7JkcQTLHIunhtdjuZEYXSsj5osl4cdXDDyI25xJUbJ4c+ODGnmS7sPs</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2902,7 +2902,7 @@
                   dataType="System.Int32"
                   description="Specifies the type of join to perform."
                   name="JoinType"
-                  typeConverter="JoinType">2</property>
+                  typeConverter="JoinType">1</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the number of columns in the ordering key."
@@ -6709,9 +6709,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6745,9 +6743,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6781,9 +6777,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6805,9 +6799,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -6841,9 +6833,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -6894,21 +6884,107 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="132,42.6666666666667"
+          Id="Package\Empleado Layer\Merge Join"
+          TopLeft="311.607128927218,310.827064256353" />
+        <NodeLayout
+          Size="184,42.6666666666667"
+          Id="Package\Empleado Layer\Empleado Destination"
+          TopLeft="849.249970499426,345.646607344159" />
+        <NodeLayout
+          Size="109.333333333334,42.6666666666667"
+          Id="Package\Empleado Layer\Sort K"
+          TopLeft="450.892836986376,184.736840076889" />
+        <NodeLayout
+          Size="108,42.6666666666667"
+          Id="Package\Empleado Layer\Sort T"
+          TopLeft="159.821421426854,187.66917087176" />
+        <NodeLayout
           Size="173.333333333334,42.6666666666667"
           Id="Package\Empleado Layer\T Empleado Source"
           TopLeft="113.37499759905,53.210523905764" />
-        <NodeLayout
-          Size="174.666666666667,42.6666666666667"
-          Id="Package\Empleado Layer\K Empleado Source"
-          TopLeft="386.374990059063,56.4736816517371" />
         <NodeLayout
           Size="185.333333333334,42.6666666666667"
           Id="Package\Empleado Layer\Replace Null Territorio"
           TopLeft="831.607108214605,191.052624210922" />
         <NodeLayout
-          Size="184,42.6666666666667"
-          Id="Package\Empleado Layer\Empleado Destination"
-          TopLeft="849.249970499426,345.646607344159" />
+          Size="157.333333333334,42.6666666666667"
+          Id="Package\Empleado Layer\Conditional Split"
+          TopLeft="569.642831677838,331.353379820452" />
+        <NodeLayout
+          Size="174.666666666667,42.6666666666667"
+          Id="Package\Empleado Layer\K Empleado Source"
+          TopLeft="386.374990059063,56.4736816517371" />
+        <EdgeLayout
+          Id="Package\Empleado Layer.Paths[New Empleados]"
+          TopLeft="648.309498344505,331.353379820452">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="246.408720981211,-97.6340889428635"
+              Start="0,0"
+              End="246.408720981211,-90.1340889428635">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-54.0790514824166" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-54.0790514824166"
+                    Point2="0,-58.0790514824166"
+                    Point3="4,-58.0790514824166" />
+                  <mssgle:LineSegment
+                    End="242.408720981211,-58.0790514824166" />
+                  <mssgle:CubicBezierSegment
+                    Point1="242.408720981211,-58.0790514824166"
+                    Point2="246.408720981211,-58.0790514824166"
+                    Point3="246.408720981211,-62.0790514824166" />
+                  <mssgle:LineSegment
+                    End="246.408720981211,-90.1340889428635" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="87.5467823656057,-53.0790514824166,71.31515625,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Empleado Layer.Paths[Merge Join Output]"
+          TopLeft="443.607128927218,332.160397589687">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="126.035702750619,20.5263155640988"
+              Start="0,0"
+              End="118.535702750619,20.5263155640988">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="59.0178513753097,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="59.0178513753097,0"
+                    Point2="63.0178513753097,0"
+                    Point3="63.0178513753097,4" />
+                  <mssgle:LineSegment
+                    End="63.0178513753097,16.5263155640988" />
+                  <mssgle:CubicBezierSegment
+                    Point1="63.0178513753097,16.5263155640988"
+                    Point2="63.0178513753097,20.5263155640988"
+                    Point3="67.0178513753097,20.5263155640988" />
+                  <mssgle:LineSegment
+                    End="118.535702750619,20.5263155640988" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Empleado Layer.Paths[Derived Column Output]"
           TopLeft="924.273774881271,233.719290877589">
@@ -6935,120 +7011,6 @@
                     Point3="16.9761956181551,59.9636582332853" />
                   <mssgle:LineSegment
                     End="16.9761956181551,104.427316466571" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="108,42.6666666666667"
-          Id="Package\Empleado Layer\Sort T"
-          TopLeft="159.821421426854,187.66917087176" />
-        <EdgeLayout
-          Id="Package\Empleado Layer.Paths[OLE DB Source Output]"
-          TopLeft="200.041664265717,95.8771905724307">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="13.7797571611375,91.7919802993297"
-              Start="0,0"
-              End="13.7797571611375,84.2919802993297">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,41.8959901496649" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,41.8959901496649"
-                    Point2="0,45.8959901496649"
-                    Point3="4,45.8959901496649" />
-                  <mssgle:LineSegment
-                    End="9.77975716113747,45.8959901496649" />
-                  <mssgle:CubicBezierSegment
-                    Point1="9.77975716113747,45.8959901496649"
-                    Point2="13.7797571611375,45.8959901496649"
-                    Point3="13.7797571611375,49.8959901496649" />
-                  <mssgle:LineSegment
-                    End="13.7797571611375,84.2919802993297" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="109.333333333334,42.6666666666667"
-          Id="Package\Empleado Layer\Sort K"
-          TopLeft="450.892836986376,184.736840076889" />
-        <EdgeLayout
-          Id="Package\Empleado Layer.Paths[OLE DB Source Output1]"
-          TopLeft="473.708323392397,99.1403483184037">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="31.8511802606462,85.5964917584854"
-              Start="0,0"
-              End="31.8511802606462,78.0964917584854">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,38.7982458792427" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,38.7982458792427"
-                    Point2="0,42.7982458792427"
-                    Point3="4,42.7982458792427" />
-                  <mssgle:LineSegment
-                    End="27.8511802606462,42.7982458792427" />
-                  <mssgle:CubicBezierSegment
-                    Point1="27.8511802606462,42.7982458792427"
-                    Point2="31.8511802606462,42.7982458792427"
-                    Point3="31.8511802606462,46.7982458792427" />
-                  <mssgle:LineSegment
-                    End="31.8511802606462,78.0964917584854" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="132,42.6666666666667"
-          Id="Package\Empleado Layer\Merge Join"
-          TopLeft="311.607128927218,310.827064256353" />
-        <EdgeLayout
-          Id="Package\Empleado Layer.Paths[Sort Output]"
-          TopLeft="213.821421426854,230.335837538427">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="163.785707500364,80.4912267179262"
-              Start="0,0"
-              End="163.785707500364,72.9912267179262">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.2456133589631" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,36.2456133589631"
-                    Point2="0,40.2456133589631"
-                    Point3="4,40.2456133589631" />
-                  <mssgle:LineSegment
-                    End="159.785707500364,40.2456133589631" />
-                  <mssgle:CubicBezierSegment
-                    Point1="159.785707500364,40.2456133589631"
-                    Point2="163.785707500364,40.2456133589631"
-                    Point3="163.785707500364,44.2456133589631" />
-                  <mssgle:LineSegment
-                    End="163.785707500364,72.9912267179262" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7091,36 +7053,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="157.333333333334,42.6666666666667"
-          Id="Package\Empleado Layer\Conditional Split"
-          TopLeft="569.642831677838,331.353379820452" />
         <EdgeLayout
-          Id="Package\Empleado Layer.Paths[Merge Join Output]"
-          TopLeft="443.607128927218,332.160397589687">
+          Id="Package\Empleado Layer.Paths[Sort Output]"
+          TopLeft="213.821421426854,230.335837538427">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="126.035702750619,20.5263155640988"
+              EndConnector="163.785707500364,80.4912267179262"
               Start="0,0"
-              End="118.535702750619,20.5263155640988">
+              End="163.785707500364,72.9912267179262">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="59.0178513753097,0" />
+                    End="0,36.2456133589631" />
                   <mssgle:CubicBezierSegment
-                    Point1="59.0178513753097,0"
-                    Point2="63.0178513753097,0"
-                    Point3="63.0178513753097,4" />
+                    Point1="0,36.2456133589631"
+                    Point2="0,40.2456133589631"
+                    Point3="4,40.2456133589631" />
                   <mssgle:LineSegment
-                    End="63.0178513753097,16.5263155640988" />
+                    End="159.785707500364,40.2456133589631" />
                   <mssgle:CubicBezierSegment
-                    Point1="63.0178513753097,16.5263155640988"
-                    Point2="63.0178513753097,20.5263155640988"
-                    Point3="67.0178513753097,20.5263155640988" />
+                    Point1="159.785707500364,40.2456133589631"
+                    Point2="163.785707500364,40.2456133589631"
+                    Point3="163.785707500364,44.2456133589631" />
                   <mssgle:LineSegment
-                    End="118.535702750619,20.5263155640988" />
+                    End="163.785707500364,72.9912267179262" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7130,39 +7088,71 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Empleado Layer.Paths[New Empleados]"
-          TopLeft="648.309498344505,331.353379820452">
+          Id="Package\Empleado Layer.Paths[OLE DB Source Output1]"
+          TopLeft="473.708323392397,99.1403483184037">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="246.408720981211,-97.6340889428635"
+              EndConnector="31.8511802606462,85.5964917584854"
               Start="0,0"
-              End="246.408720981211,-90.1340889428635">
+              End="31.8511802606462,78.0964917584854">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-54.0790514824166" />
+                    End="0,38.7982458792427" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-54.0790514824166"
-                    Point2="0,-58.0790514824166"
-                    Point3="4,-58.0790514824166" />
+                    Point1="0,38.7982458792427"
+                    Point2="0,42.7982458792427"
+                    Point3="4,42.7982458792427" />
                   <mssgle:LineSegment
-                    End="242.408720981211,-58.0790514824166" />
+                    End="27.8511802606462,42.7982458792427" />
                   <mssgle:CubicBezierSegment
-                    Point1="242.408720981211,-58.0790514824166"
-                    Point2="246.408720981211,-58.0790514824166"
-                    Point3="246.408720981211,-62.0790514824166" />
+                    Point1="27.8511802606462,42.7982458792427"
+                    Point2="31.8511802606462,42.7982458792427"
+                    Point3="31.8511802606462,46.7982458792427" />
                   <mssgle:LineSegment
-                    End="246.408720981211,-90.1340889428635" />
+                    End="31.8511802606462,78.0964917584854" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="87.5467823656057,-53.0790514824166,71.31515625,11.609375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Empleado Layer.Paths[OLE DB Source Output]"
+          TopLeft="200.041664265717,95.8771905724307">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="13.7797571611375,91.7919802993297"
+              Start="0,0"
+              End="13.7797571611375,84.2919802993297">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41.8959901496649" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,41.8959901496649"
+                    Point2="0,45.8959901496649"
+                    Point3="4,45.8959901496649" />
+                  <mssgle:LineSegment
+                    End="9.77975716113747,45.8959901496649" />
+                  <mssgle:CubicBezierSegment
+                    Point1="9.77975716113747,45.8959901496649"
+                    Point2="13.7797571611375,45.8959901496649"
+                    Point3="13.7797571611375,49.8959901496649" />
+                  <mssgle:LineSegment
+                    End="13.7797571611375,84.2919802993297" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7275,9 +7265,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7311,9 +7299,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7347,9 +7333,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7371,9 +7355,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7431,9 +7413,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7455,9 +7435,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7510,7 +7488,7 @@
         <NodeLayout
           Size="109.333333333334,42.6666666666667"
           Id="Package\Territorio Layer\Sort K"
-          TopLeft="491.999985337258,222.999993354082" />
+          TopLeft="493.041651957359,217.298239030721" />
         <NodeLayout
           Size="169.333333333334,42.6666666666667"
           Id="Package\Territorio Layer\K Territorio Source"
@@ -7537,38 +7515,36 @@
           TopLeft="625.999981343747,391.999988973141" />
         <EdgeLayout
           Id="Package\Territorio Layer.Paths[Sort Output1]"
-          TopLeft="546.666652003924,265.666660020749">
+          TopLeft="547.708318624025,259.964905697388">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-72.9999968707563,125.333328326543"
+              EndConnector="-74.0416634908565,131.035082649904"
               Start="0,0"
-              End="-72.9999968707563,117.833328326543">
+              End="-74.0416634908565,123.535082649904">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,70.2993982295077" />
+                    End="0,73.6794801337755" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,70.2993982295077"
-                    Point2="0,74.2993982295077"
-                    Point3="-4,74.2993982295077" />
+                    Point1="0,73.6794801337755"
+                    Point2="0,77.6794801337755"
+                    Point3="-4,77.6794801337755" />
                   <mssgle:LineSegment
-                    End="-68.9999968707563,74.2993982295077" />
+                    End="-70.0416634908565,77.6794801337755" />
                   <mssgle:CubicBezierSegment
-                    Point1="-68.9999968707563,74.2993982295077"
-                    Point2="-72.9999968707563,74.2993982295077"
-                    Point3="-72.9999968707563,78.2993982295077" />
+                    Point1="-70.0416634908565,77.6794801337755"
+                    Point2="-74.0416634908565,77.6794801337755"
+                    Point3="-74.0416634908565,81.6794801337755" />
                   <mssgle:LineSegment
-                    End="-72.9999968707563,117.833328326543" />
+                    End="-74.0416634908565,123.535082649904" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7602,33 +7578,29 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Territorio Layer.Paths[OLE DB Source Output1]"
-          TopLeft="546.666652450959,146.666663567225">
+          TopLeft="547.187485761009,146.666663567226">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,76.3333297868571"
+              EndConnector="0,70.6315754634955"
               Start="0,0"
-              End="0,68.8333297868571">
+              End="0,63.1315754634955">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,68.8333297868571" />
+                    End="0,63.1315754634955" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7650,9 +7622,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7710,9 +7680,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7763,13 +7731,25 @@
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="157.333333333334,42.6666666666667"
-          Id="Package\Tiempo Layer\Date Separation"
-          TopLeft="1058.99996843934,113.999996602536" />
-        <NodeLayout
           Size="121.333333333334,42.6666666666667"
           Id="Package\Tiempo Layer\GroupBy"
           TopLeft="186.999994426966,318.99999049306" />
+        <NodeLayout
+          Size="161.333333333334,42.6666666666667"
+          Id="Package\Tiempo Layer\K Tiempo Source"
+          TopLeft="443.999986767769,82.9999975264073" />
+        <NodeLayout
+          Size="158.666666666667,42.6666666666667"
+          Id="Package\Tiempo Layer\Data Conversion"
+          TopLeft="404.99998793006,203.999993920326" />
+        <NodeLayout
+          Size="153.333333333334,42.6666666666667"
+          Id="Package\Tiempo Layer\T Venta Source"
+          TopLeft="171.999994874001,80.9999975860121" />
+        <NodeLayout
+          Size="109.333333333334,42.6666666666667"
+          Id="Package\Tiempo Layer\Sort K"
+          TopLeft="615.99998164177,203.999993920326" />
         <NodeLayout
           Size="172,42.6666666666667"
           Id="Package\Tiempo Layer\Tiempo Destination"
@@ -7779,9 +7759,133 @@
           Id="Package\Tiempo Layer\Date Conversion"
           TopLeft="171.999994874001,200.999994009734" />
         <NodeLayout
-          Size="153.333333333334,42.6666666666667"
-          Id="Package\Tiempo Layer\T Venta Source"
-          TopLeft="171.999994874001,80.9999975860121" />
+          Size="132,42.6666666666667"
+          Id="Package\Tiempo Layer\Merge Join"
+          TopLeft="566.999983102084,323.999990344048" />
+        <NodeLayout
+          Size="108,42.6666666666667"
+          Id="Package\Tiempo Layer\Sort T"
+          TopLeft="380.999988645316,321.999990403652" />
+        <NodeLayout
+          Size="157.333333333334,42.6666666666667"
+          Id="Package\Tiempo Layer\Conditional Split"
+          TopLeft="825.999975383282,211.999993681908" />
+        <NodeLayout
+          Size="157.333333333334,42.6666666666667"
+          Id="Package\Tiempo Layer\Date Separation"
+          TopLeft="1058.99996843934,113.999996602536" />
+        <EdgeLayout
+          Id="Package\Tiempo Layer.Paths[Aggregate Output 1]"
+          TopLeft="308.333327760299,341.833323781689">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="72.6666608850165,0"
+              Start="0,0"
+              End="65.1666608850165,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="65.1666608850165,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tiempo Layer.Paths[Sort Output1]"
+          TopLeft="670.666648308437,246.666660586993">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-37.6666652063528,77.3333297570547"
+              Start="0,0"
+              End="-37.6666652063528,69.8333297570547">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.6666648785274" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,34.6666648785274"
+                    Point2="0,38.6666648785274"
+                    Point3="-4,38.6666648785274" />
+                  <mssgle:LineSegment
+                    End="-33.6666652063528,38.6666648785274" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-33.6666652063528,38.6666648785274"
+                    Point2="-37.6666652063528,38.6666648785274"
+                    Point3="-37.6666652063528,42.6666648785274" />
+                  <mssgle:LineSegment
+                    End="-37.6666652063528,69.8333297570547" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tiempo Layer.Paths[Sort Output]"
+          TopLeft="488.999988645316,344.333323707183">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="77.9999944567683,0"
+              Start="0,0"
+              End="70.4999944567683,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="70.4999944567683,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tiempo Layer.Paths[OLE DB Source Output1]"
+          TopLeft="524.666653434436,125.666664193074">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-40.3333321710429,78.3333297272524"
+              Start="0,0"
+              End="-40.3333321710429,70.8333297272524">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.1666648636262" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,35.1666648636262"
+                    Point2="0,39.1666648636262"
+                    Point3="-4,39.1666648636262" />
+                  <mssgle:LineSegment
+                    End="-36.3333321710429,39.1666648636262" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-36.3333321710429,39.1666648636262"
+                    Point2="-40.3333321710429,39.1666648636262"
+                    Point3="-40.3333321710429,43.1666648636262" />
+                  <mssgle:LineSegment
+                    End="-40.3333321710429,70.8333297272524" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Tiempo Layer.Paths[OLE DB Source Output]"
           TopLeft="249.999994874001,123.666664252679">
@@ -7796,6 +7900,76 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,69.8333297570551" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tiempo Layer.Paths[New Tiempos]"
+          TopLeft="904.666642049949,211.999993681908">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="208.11110416717,-55.3333304127056"
+              Start="0,0"
+              End="208.11110416717,-47.8333304127056">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-28.8657700773453" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-28.8657700773453"
+                    Point2="0,-32.8657700773453"
+                    Point3="4,-32.8657700773453" />
+                  <mssgle:LineSegment
+                    End="204.11110416717,-32.8657700773453" />
+                  <mssgle:CubicBezierSegment
+                    Point1="204.11110416717,-32.8657700773453"
+                    Point2="208.11110416717,-32.8657700773453"
+                    Point3="208.11110416717,-36.8657700773453" />
+                  <mssgle:LineSegment
+                    End="208.11110416717,-47.8333304127056" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="73.672973958585,-27.8657700773453,60.76515625,11.3310546875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Tiempo Layer.Paths[Merge Join Output]"
+          TopLeft="653.66664976875,323.999990344048">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="250.999992281199,-69.3333299954733"
+              Start="0,0"
+              End="250.999992281199,-61.8333299954733">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-24.2315355670191" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-24.2315355670191"
+                    Point2="0,-28.2315355670191"
+                    Point3="4,-28.2315355670191" />
+                  <mssgle:LineSegment
+                    End="246.999992281199,-28.2315355670191" />
+                  <mssgle:CubicBezierSegment
+                    Point1="246.999992281199,-28.2315355670191"
+                    Point2="250.999992281199,-28.2315355670191"
+                    Point3="250.999992281199,-32.2315355670191" />
+                  <mssgle:LineSegment
+                    End="250.999992281199,-61.8333299954733" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7839,160 +8013,6 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Tiempo Layer.Paths[Data Conversion Output]"
-          TopLeft="249.499994650483,243.666660676401">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,75.3333298166592"
-              Start="0,0"
-              End="0,67.8333298166592">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,67.8333298166592" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="161.333333333334,42.6666666666667"
-          Id="Package\Tiempo Layer\K Tiempo Source"
-          TopLeft="443.999986767769,82.9999975264073" />
-        <NodeLayout
-          Size="108,42.6666666666667"
-          Id="Package\Tiempo Layer\Sort T"
-          TopLeft="380.999988645316,321.999990403652" />
-        <EdgeLayout
-          Id="Package\Tiempo Layer.Paths[Aggregate Output 1]"
-          TopLeft="308.333327760299,341.833323781689">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="72.6666608850165,0"
-              Start="0,0"
-              End="65.1666608850165,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="65.1666608850165,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="109.333333333334,42.6666666666667"
-          Id="Package\Tiempo Layer\Sort K"
-          TopLeft="615.99998164177,203.999993920326" />
-        <NodeLayout
-          Size="132,42.6666666666667"
-          Id="Package\Tiempo Layer\Merge Join"
-          TopLeft="566.999983102084,323.999990344048" />
-        <EdgeLayout
-          Id="Package\Tiempo Layer.Paths[Sort Output]"
-          TopLeft="488.999988645316,344.333323707183">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="77.9999944567683,0"
-              Start="0,0"
-              End="70.4999944567683,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="70.4999944567683,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Tiempo Layer.Paths[Sort Output1]"
-          TopLeft="670.666648308437,246.666660586993">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-37.6666652063528,77.3333297570547"
-              Start="0,0"
-              End="-37.6666652063528,69.8333297570547">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,34.6666648785274" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,34.6666648785274"
-                    Point2="0,38.6666648785274"
-                    Point3="-4,38.6666648785274" />
-                  <mssgle:LineSegment
-                    End="-33.6666652063528,38.6666648785274" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-33.6666652063528,38.6666648785274"
-                    Point2="-37.6666652063528,38.6666648785274"
-                    Point3="-37.6666652063528,42.6666648785274" />
-                  <mssgle:LineSegment
-                    End="-37.6666652063528,69.8333297570547" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="158.666666666667,42.6666666666667"
-          Id="Package\Tiempo Layer\Data Conversion"
-          TopLeft="404.99998793006,203.999993920326" />
-        <EdgeLayout
-          Id="Package\Tiempo Layer.Paths[OLE DB Source Output1]"
-          TopLeft="524.666653434436,125.666664193074">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-40.3333321710429,78.3333297272524"
-              Start="0,0"
-              End="-40.3333321710429,70.8333297272524">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,35.1666648636262" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,35.1666648636262"
-                    Point2="0,39.1666648636262"
-                    Point3="-4,39.1666648636262" />
-                  <mssgle:LineSegment
-                    End="-36.3333321710429,39.1666648636262" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-36.3333321710429,39.1666648636262"
-                    Point2="-40.3333321710429,39.1666648636262"
-                    Point3="-40.3333321710429,43.1666648636262" />
-                  <mssgle:LineSegment
-                    End="-40.3333321710429,70.8333297272524" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Tiempo Layer.Paths[Data Conversion Output1]"
           TopLeft="563.666654596726,225.33332725366">
           <EdgeLayout.Curve>
@@ -8014,78 +8034,26 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="157.333333333334,42.6666666666667"
-          Id="Package\Tiempo Layer\Conditional Split"
-          TopLeft="825.999975383282,211.999993681908" />
         <EdgeLayout
-          Id="Package\Tiempo Layer.Paths[Merge Join Output]"
-          TopLeft="653.66664976875,323.999990344048">
+          Id="Package\Tiempo Layer.Paths[Data Conversion Output]"
+          TopLeft="249.499994650483,243.666660676401">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="250.999992281199,-69.3333299954733"
+              EndConnector="0,75.3333298166592"
               Start="0,0"
-              End="250.999992281199,-61.8333299954733">
+              End="0,67.8333298166592">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-24.2315355670191" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-24.2315355670191"
-                    Point2="0,-28.2315355670191"
-                    Point3="4,-28.2315355670191" />
-                  <mssgle:LineSegment
-                    End="246.999992281199,-28.2315355670191" />
-                  <mssgle:CubicBezierSegment
-                    Point1="246.999992281199,-28.2315355670191"
-                    Point2="250.999992281199,-28.2315355670191"
-                    Point3="250.999992281199,-32.2315355670191" />
-                  <mssgle:LineSegment
-                    End="250.999992281199,-61.8333299954733" />
+                    End="0,67.8333298166592" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Tiempo Layer.Paths[New Tiempos]"
-          TopLeft="904.666642049949,211.999993681908">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="208.11110416717,-55.3333304127056"
-              Start="0,0"
-              End="208.11110416717,-47.8333304127056">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-28.8657700773453" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-28.8657700773453"
-                    Point2="0,-32.8657700773453"
-                    Point3="4,-32.8657700773453" />
-                  <mssgle:LineSegment
-                    End="204.11110416717,-32.8657700773453" />
-                  <mssgle:CubicBezierSegment
-                    Point1="204.11110416717,-32.8657700773453"
-                    Point2="208.11110416717,-32.8657700773453"
-                    Point3="208.11110416717,-36.8657700773453" />
-                  <mssgle:LineSegment
-                    End="208.11110416717,-47.8333304127056" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="73.672973958585,-27.8657700773453,60.76515625,11.3310546875"
-              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -8140,14 +8108,6 @@
           Id="Package\Venta Layer\DetalleVenta Source"
           TopLeft="749.499973155559,56.8120286985023" />
         <NodeLayout
-          Size="157.333333333334,42.6666666666667"
-          Id="Package\Venta Layer\Conditional Split"
-          TopLeft="184.047610905199,346.015033794808" />
-        <NodeLayout
-          Size="140,42.6666666666667"
-          Id="Package\Venta Layer\Replace Null"
-          TopLeft="572.392838394536,323.939848175387" />
-        <NodeLayout
           Size="109.333333333334,42.6666666666667"
           Id="Package\Venta Layer\Sort K"
           TopLeft="328.999990195036,132.999996036291" />
@@ -8156,59 +8116,71 @@
           Id="Package\Venta Layer\T Venta Source"
           TopLeft="71.2499987520279,37.9473670068046" />
         <NodeLayout
+          Size="154.666666666667,42.6666666666667"
+          Id="Package\Venta Layer\K Venta Source"
+          TopLeft="310.999990731478,41.9999987483025" />
+        <NodeLayout
           Size="158.666666666667,42.6666666666667"
           Id="Package\Venta Layer\Date Conversion"
           TopLeft="565.678550432303,210.804505970823" />
         <NodeLayout
-          Size="164,42.6666666666667"
-          Id="Package\Venta Layer\Venta Destination"
-          TopLeft="1020.99995802343,77.9573971033289" />
-        <NodeLayout
-          Size="154.666666666667,42.6666666666667"
-          Id="Package\Venta Layer\K Venta Source"
-          TopLeft="310.999990731478,41.9999987483025" />
+          Size="140,42.6666666666667"
+          Id="Package\Venta Layer\Replace Null"
+          TopLeft="572.392838394536,323.939848175387" />
         <NodeLayout
           Size="149.333333333334,42.6666666666667"
           Id="Package\Venta Layer\Merge Join TK"
           TopLeft="179.464277691607,249.248117564057" />
         <NodeLayout
+          Size="132,42.6666666666667"
+          Id="Package\Venta Layer\Merge Join"
+          TopLeft="839.940440387777,337.844607965752" />
+        <NodeLayout
+          Size="157.333333333334,42.6666666666667"
+          Id="Package\Venta Layer\Conditional Split"
+          TopLeft="184.047610905199,346.015033794808" />
+        <NodeLayout
           Size="162.666666666667,42.6666666666667"
           Id="Package\Venta Layer\Sort DetalleVenta"
           TopLeft="760.249972704798,198.015033801082" />
         <NodeLayout
-          Size="181.333333333334,42.6666666666667"
-          Id="Package\Venta Layer\Calculate PrecioTotal"
-          TopLeft="1021.35710414286,195.932327489951" />
-        <NodeLayout
           Size="108,42.6666666666667"
           Id="Package\Venta Layer\Sort T"
           TopLeft="86.3035671681696,126.225566081299" />
+        <NodeLayout
+          Size="164,42.6666666666667"
+          Id="Package\Venta Layer\Venta Destination"
+          TopLeft="1020.99995802343,77.9573971033289" />
+        <NodeLayout
+          Size="181.333333333334,42.6666666666667"
+          Id="Package\Venta Layer\Calculate PrecioTotal"
+          TopLeft="1021.35710414286,195.932327489951" />
         <EdgeLayout
-          Id="Package\Venta Layer.Paths[Data Conversion Output]"
-          TopLeft="670.122994876747,253.47117263749">
+          Id="Package\Venta Layer.Paths[Sort Output2]"
+          TopLeft="841.583306038132,240.681700467749">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-27.7301564822114,70.4686755378974"
+              EndConnector="64.3571343496451,97.1629074980034"
               Start="0,0"
-              End="-27.7301564822114,62.9686755378974">
+              End="64.3571343496451,89.6629074980034">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.6095787541547" />
+                    End="0,44.5814537490017" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,24.6095787541547"
-                    Point2="0,28.6095787541547"
-                    Point3="-4,28.6095787541547" />
+                    Point1="0,44.5814537490017"
+                    Point2="0,48.5814537490017"
+                    Point3="4,48.5814537490017" />
                   <mssgle:LineSegment
-                    End="-23.7301564822114,28.6095787541547" />
+                    End="60.3571343496451,48.5814537490017" />
                   <mssgle:CubicBezierSegment
-                    Point1="-23.7301564822114,28.6095787541547"
-                    Point2="-27.7301564822114,28.6095787541547"
-                    Point3="-27.7301564822114,32.6095787541547" />
+                    Point1="60.3571343496451,48.5814537490017"
+                    Point2="64.3571343496451,48.5814537490017"
+                    Point3="64.3571343496451,52.5814537490017" />
                   <mssgle:LineSegment
-                    End="-27.7301564822114,62.9686755378974" />
+                    End="64.3571343496451,89.6629074980034" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8388,6 +8360,40 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Venta Layer.Paths[Merge Join Output1]"
+          TopLeft="926.607107054443,337.844607965752">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="185.416663755083,-99.2456138091347"
+              Start="0,0"
+              End="185.416663755083,-91.7456138091347">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-36.4113876588094" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-36.4113876588094"
+                    Point2="0,-40.4113876588094"
+                    Point3="4,-40.4113876588094" />
+                  <mssgle:LineSegment
+                    End="181.416663755083,-40.4113876588094" />
+                  <mssgle:CubicBezierSegment
+                    Point1="181.416663755083,-40.4113876588094"
+                    Point2="185.416663755083,-40.4113876588094"
+                    Point3="185.416663755083,-44.4113876588094" />
+                  <mssgle:LineSegment
+                    End="185.416663755083,-91.7456138091347" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Venta Layer.Paths[Merge Join Output]"
           TopLeft="254.130944358274,291.914784230723">
           <EdgeLayout.Curve>
@@ -8413,6 +8419,40 @@
                     Point3="8.5833332135918,31.0501247820424" />
                   <mssgle:LineSegment
                     End="8.5833332135918,46.6002495640848" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Venta Layer.Paths[Derived Column Output1]"
+          TopLeft="712.392838394536,345.27318150872">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="127.547601993241,13.9047597903653"
+              Start="0,0"
+              End="120.047601993241,13.9047597903653">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="59.7738009966203,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="59.7738009966203,0"
+                    Point2="63.7738009966203,0"
+                    Point3="63.7738009966203,4" />
+                  <mssgle:LineSegment
+                    End="63.7738009966203,9.90475979036535" />
+                  <mssgle:CubicBezierSegment
+                    Point1="63.7738009966203,9.90475979036535"
+                    Point2="63.7738009966203,13.9047597903653"
+                    Point3="67.7738009966203,13.9047597903653" />
+                  <mssgle:LineSegment
+                    End="120.047601993241,13.9047597903653" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8455,104 +8495,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="132,42.6666666666667"
-          Id="Package\Venta Layer\Merge Join"
-          TopLeft="839.940440387777,337.844607965752" />
         <EdgeLayout
-          Id="Package\Venta Layer.Paths[Derived Column Output1]"
-          TopLeft="712.392838394536,345.27318150872">
+          Id="Package\Venta Layer.Paths[Data Conversion Output]"
+          TopLeft="670.122994876747,253.47117263749">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="127.547601993241,13.9047597903653"
+              EndConnector="-27.7301564822114,70.4686755378974"
               Start="0,0"
-              End="120.047601993241,13.9047597903653">
+              End="-27.7301564822114,62.9686755378974">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="59.7738009966203,0" />
+                    End="0,24.6095787541547" />
                   <mssgle:CubicBezierSegment
-                    Point1="59.7738009966203,0"
-                    Point2="63.7738009966203,0"
-                    Point3="63.7738009966203,4" />
+                    Point1="0,24.6095787541547"
+                    Point2="0,28.6095787541547"
+                    Point3="-4,28.6095787541547" />
                   <mssgle:LineSegment
-                    End="63.7738009966203,9.90475979036535" />
+                    End="-23.7301564822114,28.6095787541547" />
                   <mssgle:CubicBezierSegment
-                    Point1="63.7738009966203,9.90475979036535"
-                    Point2="63.7738009966203,13.9047597903653"
-                    Point3="67.7738009966203,13.9047597903653" />
+                    Point1="-23.7301564822114,28.6095787541547"
+                    Point2="-27.7301564822114,28.6095787541547"
+                    Point3="-27.7301564822114,32.6095787541547" />
                   <mssgle:LineSegment
-                    End="120.047601993241,13.9047597903653" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Venta Layer.Paths[Sort Output2]"
-          TopLeft="841.583306038132,240.681700467749">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="64.3571343496451,97.1629074980034"
-              Start="0,0"
-              End="64.3571343496451,89.6629074980034">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.5814537490017" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,44.5814537490017"
-                    Point2="0,48.5814537490017"
-                    Point3="4,48.5814537490017" />
-                  <mssgle:LineSegment
-                    End="60.3571343496451,48.5814537490017" />
-                  <mssgle:CubicBezierSegment
-                    Point1="60.3571343496451,48.5814537490017"
-                    Point2="64.3571343496451,48.5814537490017"
-                    Point3="64.3571343496451,52.5814537490017" />
-                  <mssgle:LineSegment
-                    End="64.3571343496451,89.6629074980034" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Venta Layer.Paths[Merge Join Output1]"
-          TopLeft="926.607107054443,337.844607965752">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="185.416663755083,-99.2456138091347"
-              Start="0,0"
-              End="185.416663755083,-91.7456138091347">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-36.4113876588094" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-36.4113876588094"
-                    Point2="0,-40.4113876588094"
-                    Point3="4,-40.4113876588094" />
-                  <mssgle:LineSegment
-                    End="181.416663755083,-40.4113876588094" />
-                  <mssgle:CubicBezierSegment
-                    Point1="181.416663755083,-40.4113876588094"
-                    Point2="185.416663755083,-40.4113876588094"
-                    Point3="185.416663755083,-44.4113876588094" />
-                  <mssgle:LineSegment
-                    End="185.416663755083,-91.7456138091347" />
+                    End="-27.7301564822114,62.9686755378974" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8591,7 +8559,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Venta Layer\Venta Destination">
+    design-time-name="Package\Venta Layer\K Venta Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8604,7 +8572,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Venta Layer\K Venta Source">
+    design-time-name="Package\Venta Layer\Venta Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
