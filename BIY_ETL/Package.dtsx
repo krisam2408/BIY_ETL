@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="113"
-  DTS:VersionGUID="{A27D2FF9-F5A1-4E3B-A5DC-342FA0E8676B}">
+  DTS:VersionBuild="114"
+  DTS:VersionGUID="{9951A385-BE81-491D-8431-AACA6388225F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAamOrpGQSmUenmrOJ+vU3mQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADuVE4icPJn3kQfuwB64yLSMOqdTDF8doVDf8tLrLHluQAAAAAOgAAAAAIAACAAAABUrwKB+FoP3rPGxKZvxksRu4ty0Uirx/e6YVLO4HqB3iAAAADI7v1zcTGDl/pROcpdVPIdHCTEygrsgdzTQt7YtK8sq0AAAAAblxIrboLbBno9Nyo/fyh+RI6BsHvf/PCuqkAcIdiAU4pd2/yc/AQ3kGbQPlR5Q/loAkPa2lBrruD6pJlTS+2H</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+0CuCp0Chk2kBKnzUUqRBAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACvcyrpUEjyks10pr3YNsVIc1z6mLncr3klYGlRyh1/LAAAAAAOgAAAAAIAACAAAADZak+smykC0qJsf3uBoGqaW3SuWdsmXJD8vZADdr/kziAAAADEUZ9iHDSRZeUWHslEEaXtYZjHDpdIF1iP3HBxTywJnUAAAACmX8FDwldaYEYILpAm201RSUq1uLapzVbp0Rwb1zg5ECWZ6RjmljLZ9OkMOxnu6k9h7LAHx3/pt2Y76teRXt1w</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAamOrpGQSmUenmrOJ+vU3mQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACHACm4T8gYhspKi7bJ5oAtsWFbtqmaKK4LOWwnznsrqgAAAAAOgAAAAAIAACAAAADrkjc+7cJSHIeH9B2wlTAAQl5GDz4ODcarvdDFZf2pKSAAAAAX6WUim7VrdQWcDoeFiAQmEyHSdkeZNsrpTe3VZAPssEAAAAC0UTUf6aXqnyKb5C5DNeAe+Z1X2qDxhk8fFNpGKf0xgbxc0xgp3LLIvZUn1QyuU25rQT/lDxLgVmudPJMI4Fvl</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+0CuCp0Chk2kBKnzUUqRBAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABEMs0mwjqWeqwKMsFazxxQzlL62d+KgwenndOPFM/NXgAAAAAOgAAAAAIAACAAAAAS3b56Msb93XI7ig8I27AOnGtXYS2e5E8Sb4x42guAXiAAAAC3rwwU+UvupjY78yw14QU0lLgf3WdAB/ajuW0QIPEPa0AAAABmdjhRmh1JqpSgiGTPJ+grQ7vp1btDdxUnb81Am1wuBa8i32yZbUssajg5aRiXrpnwO16JENwBTMt9w7Mg5e8Z</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -2677,13 +2677,13 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Territorio Layer"
+      DTS:refId="Package\TerritorioEmpleado Layer"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{EB73EE51-9AED-48AA-A409-BDB4DA47CFCB}"
+      DTS:DTSID="{a61872ea-fc0f-40d7-ad63-5bd143cf466d}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Territorio Layer"
+      DTS:ObjectName="TerritorioEmpleado Layer"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -2691,7 +2691,7 @@
           version="1">
           <components>
             <component
-              refId="Package\Territorio Layer\Conditional Split"
+              refId="Package\TerritorioEmpleado Layer\Conditional Split"
               componentClassID="Microsoft.ConditionalSplit"
               contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
@@ -2699,35 +2699,35 @@
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\Territorio Layer\Conditional Split.Inputs[Conditional Split Input]"
+                  refId="Package\TerritorioEmpleado Layer\Conditional Split.Inputs[Conditional Split Input]"
                   description="Input to the Conditional Split Transformation"
                   name="Conditional Split Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Territorio Layer\Conditional Split.Inputs[Conditional Split Input].Columns[TerritorioId_K]"
+                      refId="Package\TerritorioEmpleado Layer\Conditional Split.Inputs[Conditional Split Input].Columns[TerritorioId_K]"
                       cachedDataType="i4"
                       cachedName="TerritorioId_K"
-                      lineageId="Package\Territorio Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioId_K]" />
+                      lineageId="Package\TerritorioEmpleado Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioId_K]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Territorio Layer\Conditional Split.Outputs[New Territorios]"
+                  refId="Package\TerritorioEmpleado Layer\Conditional Split.Outputs[New Territorios]"
                   description="Output 1 of the Conditional Split Transformation"
                   errorOrTruncationOperation="Computation"
                   errorRowDisposition="FailComponent"
                   exclusionGroup="1"
                   name="New Territorios"
-                  synchronousInputId="Package\Territorio Layer\Conditional Split.Inputs[Conditional Split Input]"
+                  synchronousInputId="Package\TerritorioEmpleado Layer\Conditional Split.Inputs[Conditional Split Input]"
                   truncationRowDisposition="FailComponent">
                   <properties>
                     <property
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                      name="Expression">[ISNULL](#{Package\Territorio Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioId_K]})</property>
+                      name="Expression">[ISNULL](#{Package\TerritorioEmpleado Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioId_K]})</property>
                     <property
                       containsID="true"
                       dataType="System.String"
@@ -2742,11 +2742,11 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Territorio Layer\Conditional Split.Outputs[All Territorios]"
+                  refId="Package\TerritorioEmpleado Layer\Conditional Split.Outputs[All Territorios]"
                   description="Default Output of the Conditional Split Transformation"
                   exclusionGroup="1"
                   name="All Territorios"
-                  synchronousInputId="Package\Territorio Layer\Conditional Split.Inputs[Conditional Split Input]">
+                  synchronousInputId="Package\TerritorioEmpleado Layer\Conditional Split.Inputs[Conditional Split Input]">
                   <properties>
                     <property
                       dataType="System.Boolean"
@@ -2755,23 +2755,23 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Territorio Layer\Conditional Split.Outputs[Conditional Split Error Output]"
+                  refId="Package\TerritorioEmpleado Layer\Conditional Split.Outputs[Conditional Split Error Output]"
                   description="Error Output of the Conditional Split Transformation"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Conditional Split Error Output"
-                  synchronousInputId="Package\Territorio Layer\Conditional Split.Inputs[Conditional Split Input]">
+                  synchronousInputId="Package\TerritorioEmpleado Layer\Conditional Split.Inputs[Conditional Split Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Territorio Layer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      refId="Package\TerritorioEmpleado Layer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      lineageId="Package\TerritorioEmpleado Layer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Territorio Layer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      refId="Package\TerritorioEmpleado Layer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\TerritorioEmpleado Layer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2780,7 +2780,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Territorio Layer\K Territorio Source"
+              refId="Package\TerritorioEmpleado Layer\K Territorio Source"
               componentClassID="Microsoft.OLEDBSource"
               contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
               description="OLE DB Source"
@@ -2795,7 +2795,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dwh].[Territorio]</property>
+                  name="OpenRowset">[dwh].[TerritorioEmpleado]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -2829,7 +2829,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Territorio Layer\K Territorio Source.Connections[OleDbConnection]"
+                  refId="Package\TerritorioEmpleado Layer\K Territorio Source.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[localhost.BikeZ_DW.bike 1]"
                   connectionManagerRefId="Package.ConnectionManagers[localhost.BikeZ_DW.bike 1]"
                   description="The OLE DB runtime connection used to access the database."
@@ -2837,52 +2837,52 @@
               </connections>
               <outputs>
                 <output
-                  refId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Output]"
+                  refId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Output]"
                   name="OLE DB Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioId]"
+                      refId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioId]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[TerritorioId]"
-                      lineageId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioId]"
+                      externalMetadataColumnId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[TerritorioId]"
+                      lineageId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioId]"
                       name="TerritorioId"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[TerritorioId]"
+                      refId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[TerritorioId]"
                       dataType="i4"
                       name="TerritorioId" />
                     <externalMetadataColumn
-                      refId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[Territorio]"
+                      refId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[Territorio]"
                       dataType="wstr"
                       length="50"
                       name="Territorio" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Error Output]"
+                  refId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Error Output]"
                   isErrorOut="true"
                   name="OLE DB Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[TerritorioId]"
+                      refId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[TerritorioId]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[TerritorioId]"
+                      lineageId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[TerritorioId]"
                       name="TerritorioId" />
                     <outputColumn
-                      refId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      refId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2891,7 +2891,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Territorio Layer\Merge Join"
+              refId="Package\TerritorioEmpleado Layer\Merge Join"
               componentClassID="Microsoft.MergeJoin"
               contactInfo="Merge Join;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Combine two sorted data flows into one using the FULL, LEFT, or INNER join. We recommend this transformation when data flows can be sorted at their sources."
@@ -2918,50 +2918,50 @@
               </properties>
               <inputs>
                 <input
-                  refId="Package\Territorio Layer\Merge Join.Inputs[Merge Join Left Input]"
+                  refId="Package\TerritorioEmpleado Layer\Merge Join.Inputs[Merge Join Left Input]"
                   hasSideEffects="true"
                   name="Merge Join Left Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Territorio Layer\Merge Join.Inputs[Merge Join Left Input].Columns[TerritorioID]"
+                      refId="Package\TerritorioEmpleado Layer\Merge Join.Inputs[Merge Join Left Input].Columns[TerritorioID]"
                       cachedDataType="i4"
                       cachedName="TerritorioID"
                       cachedSortKeyPosition="1"
-                      lineageId="Package\Territorio Layer\Sort T.Outputs[Sort Output].Columns[TerritorioID]" />
+                      lineageId="Package\TerritorioEmpleado Layer\Sort T.Outputs[Sort Output].Columns[TerritorioID]" />
                     <inputColumn
-                      refId="Package\Territorio Layer\Merge Join.Inputs[Merge Join Left Input].Columns[Territorio]"
+                      refId="Package\TerritorioEmpleado Layer\Merge Join.Inputs[Merge Join Left Input].Columns[Territorio]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Territorio"
-                      lineageId="Package\Territorio Layer\Sort T.Outputs[Sort Output].Columns[Territorio]" />
+                      lineageId="Package\TerritorioEmpleado Layer\Sort T.Outputs[Sort Output].Columns[Territorio]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
                 <input
-                  refId="Package\Territorio Layer\Merge Join.Inputs[Merge Join Right Input]"
+                  refId="Package\TerritorioEmpleado Layer\Merge Join.Inputs[Merge Join Right Input]"
                   hasSideEffects="true"
                   name="Merge Join Right Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Territorio Layer\Merge Join.Inputs[Merge Join Right Input].Columns[TerritorioId]"
+                      refId="Package\TerritorioEmpleado Layer\Merge Join.Inputs[Merge Join Right Input].Columns[TerritorioId]"
                       cachedDataType="i4"
                       cachedName="TerritorioId"
                       cachedSortKeyPosition="1"
-                      lineageId="Package\Territorio Layer\Sort K.Outputs[Sort Output].Columns[TerritorioId]" />
+                      lineageId="Package\TerritorioEmpleado Layer\Sort K.Outputs[Sort Output].Columns[TerritorioId]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Territorio Layer\Merge Join.Outputs[Merge Join Output]"
+                  refId="Package\TerritorioEmpleado Layer\Merge Join.Outputs[Merge Join Output]"
                   isSorted="true"
                   name="Merge Join Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Territorio Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioID_T]"
+                      refId="Package\TerritorioEmpleado Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioID_T]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioID_T]"
+                      lineageId="Package\TerritorioEmpleado Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioID_T]"
                       name="TerritorioID_T"
                       sortKeyPosition="1">
                       <properties>
@@ -2969,34 +2969,34 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Territorio Layer\Merge Join.Inputs[Merge Join Left Input].Columns[TerritorioID]}</property>
+                          name="InputColumnID">#{Package\TerritorioEmpleado Layer\Merge Join.Inputs[Merge Join Left Input].Columns[TerritorioID]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Territorio Layer\Merge Join.Outputs[Merge Join Output].Columns[Territorio_T]"
+                      refId="Package\TerritorioEmpleado Layer\Merge Join.Outputs[Merge Join Output].Columns[Territorio_T]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Territorio Layer\Merge Join.Outputs[Merge Join Output].Columns[Territorio_T]"
+                      lineageId="Package\TerritorioEmpleado Layer\Merge Join.Outputs[Merge Join Output].Columns[Territorio_T]"
                       name="Territorio_T">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Territorio Layer\Merge Join.Inputs[Merge Join Left Input].Columns[Territorio]}</property>
+                          name="InputColumnID">#{Package\TerritorioEmpleado Layer\Merge Join.Inputs[Merge Join Left Input].Columns[Territorio]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Territorio Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioId_K]"
+                      refId="Package\TerritorioEmpleado Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioId_K]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioId_K]"
+                      lineageId="Package\TerritorioEmpleado Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioId_K]"
                       name="TerritorioId_K">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="The input column associated with this output column"
-                          name="InputColumnID">#{Package\Territorio Layer\Merge Join.Inputs[Merge Join Right Input].Columns[TerritorioId]}</property>
+                          name="InputColumnID">#{Package\TerritorioEmpleado Layer\Merge Join.Inputs[Merge Join Right Input].Columns[TerritorioId]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -3005,7 +3005,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Territorio Layer\Sort K"
+              refId="Package\TerritorioEmpleado Layer\Sort K"
               componentClassID="Microsoft.Sort"
               contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
@@ -3024,14 +3024,14 @@
               </properties>
               <inputs>
                 <input
-                  refId="Package\Territorio Layer\Sort K.Inputs[Sort Input]"
+                  refId="Package\TerritorioEmpleado Layer\Sort K.Inputs[Sort Input]"
                   name="Sort Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Territorio Layer\Sort K.Inputs[Sort Input].Columns[TerritorioId]"
+                      refId="Package\TerritorioEmpleado Layer\Sort K.Inputs[Sort Input].Columns[TerritorioId]"
                       cachedDataType="i4"
                       cachedName="TerritorioId"
-                      lineageId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioId]">
+                      lineageId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioId]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -3049,14 +3049,14 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Territorio Layer\Sort K.Outputs[Sort Output]"
+                  refId="Package\TerritorioEmpleado Layer\Sort K.Outputs[Sort Output]"
                   isSorted="true"
                   name="Sort Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Territorio Layer\Sort K.Outputs[Sort Output].Columns[TerritorioId]"
+                      refId="Package\TerritorioEmpleado Layer\Sort K.Outputs[Sort Output].Columns[TerritorioId]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\Sort K.Outputs[Sort Output].Columns[TerritorioId]"
+                      lineageId="Package\TerritorioEmpleado Layer\Sort K.Outputs[Sort Output].Columns[TerritorioId]"
                       name="TerritorioId"
                       sortKeyPosition="1">
                       <properties>
@@ -3064,7 +3064,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioId]}</property>
+                          name="SortColumnId">#{Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioId]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -3073,7 +3073,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Territorio Layer\Sort T"
+              refId="Package\TerritorioEmpleado Layer\Sort T"
               componentClassID="Microsoft.Sort"
               contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
@@ -3092,14 +3092,14 @@
               </properties>
               <inputs>
                 <input
-                  refId="Package\Territorio Layer\Sort T.Inputs[Sort Input]"
+                  refId="Package\TerritorioEmpleado Layer\Sort T.Inputs[Sort Input]"
                   name="Sort Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Territorio Layer\Sort T.Inputs[Sort Input].Columns[TerritorioID]"
+                      refId="Package\TerritorioEmpleado Layer\Sort T.Inputs[Sort Input].Columns[TerritorioID]"
                       cachedDataType="i4"
                       cachedName="TerritorioID"
-                      lineageId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioID]">
+                      lineageId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioID]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -3112,11 +3112,11 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Territorio Layer\Sort T.Inputs[Sort Input].Columns[Territorio]"
+                      refId="Package\TerritorioEmpleado Layer\Sort T.Inputs[Sort Input].Columns[Territorio]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Territorio"
-                      lineageId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[Territorio]">
+                      lineageId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[Territorio]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -3134,14 +3134,14 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Territorio Layer\Sort T.Outputs[Sort Output]"
+                  refId="Package\TerritorioEmpleado Layer\Sort T.Outputs[Sort Output]"
                   isSorted="true"
                   name="Sort Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Territorio Layer\Sort T.Outputs[Sort Output].Columns[TerritorioID]"
+                      refId="Package\TerritorioEmpleado Layer\Sort T.Outputs[Sort Output].Columns[TerritorioID]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\Sort T.Outputs[Sort Output].Columns[TerritorioID]"
+                      lineageId="Package\TerritorioEmpleado Layer\Sort T.Outputs[Sort Output].Columns[TerritorioID]"
                       name="TerritorioID"
                       sortKeyPosition="1">
                       <properties>
@@ -3149,21 +3149,21 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioID]}</property>
+                          name="SortColumnId">#{Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioID]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\Territorio Layer\Sort T.Outputs[Sort Output].Columns[Territorio]"
+                      refId="Package\TerritorioEmpleado Layer\Sort T.Outputs[Sort Output].Columns[Territorio]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Territorio Layer\Sort T.Outputs[Sort Output].Columns[Territorio]"
+                      lineageId="Package\TerritorioEmpleado Layer\Sort T.Outputs[Sort Output].Columns[Territorio]"
                       name="Territorio">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[Territorio]}</property>
+                          name="SortColumnId">#{Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[Territorio]}</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -3172,7 +3172,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Territorio Layer\T Territorio Source"
+              refId="Package\TerritorioEmpleado Layer\T Territorio Source"
               componentClassID="Microsoft.OLEDBSource"
               contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
               description="OLE DB Source"
@@ -3221,7 +3221,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Territorio Layer\T Territorio Source.Connections[OleDbConnection]"
+                  refId="Package\TerritorioEmpleado Layer\T Territorio Source.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[localhost.BikeZ.bike]"
                   connectionManagerRefId="Package.ConnectionManagers[localhost.BikeZ.bike]"
                   description="The OLE DB runtime connection used to access the database."
@@ -3229,78 +3229,78 @@
               </connections>
               <outputs>
                 <output
-                  refId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output]"
+                  refId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output]"
                   name="OLE DB Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioID]"
+                      refId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioID]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[TerritorioID]"
-                      lineageId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioID]"
+                      externalMetadataColumnId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[TerritorioID]"
+                      lineageId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioID]"
                       name="TerritorioID"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[Territorio]"
+                      refId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[Territorio]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[Territorio]"
+                      externalMetadataColumnId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[Territorio]"
                       length="50"
-                      lineageId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[Territorio]"
+                      lineageId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[Territorio]"
                       name="Territorio"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[TerritorioID]"
+                      refId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[TerritorioID]"
                       dataType="i4"
                       name="TerritorioID" />
                     <externalMetadataColumn
-                      refId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[Territorio]"
+                      refId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[Territorio]"
                       dataType="wstr"
                       length="50"
                       name="Territorio" />
                     <externalMetadataColumn
-                      refId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[PaisID]"
+                      refId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[PaisID]"
                       dataType="wstr"
                       length="3"
                       name="PaisID" />
                     <externalMetadataColumn
-                      refId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[Grupo]"
+                      refId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[Grupo]"
                       dataType="wstr"
                       length="50"
                       name="Grupo" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Error Output]"
+                  refId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Error Output]"
                   isErrorOut="true"
                   name="OLE DB Source Error Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[TerritorioID]"
+                      refId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[TerritorioID]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[TerritorioID]"
+                      lineageId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[TerritorioID]"
                       name="TerritorioID" />
                     <outputColumn
-                      refId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[Territorio]"
+                      refId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[Territorio]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[Territorio]"
+                      lineageId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[Territorio]"
                       name="Territorio" />
                     <outputColumn
-                      refId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      refId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      lineageId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      refId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -3309,7 +3309,7 @@
               </outputs>
             </component>
             <component
-              refId="Package\Territorio Layer\Territorio Destination"
+              refId="Package\TerritorioEmpleado Layer\Territorio Destination"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
@@ -3324,7 +3324,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dwh].[Territorio]</property>
+                  name="OpenRowset">[dwh].[TerritorioEmpleado]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -3366,7 +3366,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Territorio Layer\Territorio Destination.Connections[OleDbConnection]"
+                  refId="Package\TerritorioEmpleado Layer\Territorio Destination.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[localhost.BikeZ_DW.bike 1]"
                   connectionManagerRefId="Package.ConnectionManagers[localhost.BikeZ_DW.bike 1]"
                   description="The OLE DB runtime connection used to access the database."
@@ -3374,35 +3374,35 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Territorio Layer\Territorio Destination.Inputs[OLE DB Destination Input]"
+                  refId="Package\TerritorioEmpleado Layer\Territorio Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Territorio Layer\Territorio Destination.Inputs[OLE DB Destination Input].Columns[TerritorioID_T]"
+                      refId="Package\TerritorioEmpleado Layer\Territorio Destination.Inputs[OLE DB Destination Input].Columns[TerritorioID_T]"
                       cachedDataType="i4"
                       cachedName="TerritorioID_T"
                       cachedSortKeyPosition="1"
-                      externalMetadataColumnId="Package\Territorio Layer\Territorio Destination.Inputs[OLE DB Destination Input].ExternalColumns[TerritorioId]"
-                      lineageId="Package\Territorio Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioID_T]" />
+                      externalMetadataColumnId="Package\TerritorioEmpleado Layer\Territorio Destination.Inputs[OLE DB Destination Input].ExternalColumns[TerritorioId]"
+                      lineageId="Package\TerritorioEmpleado Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioID_T]" />
                     <inputColumn
-                      refId="Package\Territorio Layer\Territorio Destination.Inputs[OLE DB Destination Input].Columns[Territorio_T]"
+                      refId="Package\TerritorioEmpleado Layer\Territorio Destination.Inputs[OLE DB Destination Input].Columns[Territorio_T]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Territorio_T"
-                      externalMetadataColumnId="Package\Territorio Layer\Territorio Destination.Inputs[OLE DB Destination Input].ExternalColumns[Territorio]"
-                      lineageId="Package\Territorio Layer\Merge Join.Outputs[Merge Join Output].Columns[Territorio_T]" />
+                      externalMetadataColumnId="Package\TerritorioEmpleado Layer\Territorio Destination.Inputs[OLE DB Destination Input].ExternalColumns[Territorio]"
+                      lineageId="Package\TerritorioEmpleado Layer\Merge Join.Outputs[Merge Join Output].Columns[Territorio_T]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Territorio Layer\Territorio Destination.Inputs[OLE DB Destination Input].ExternalColumns[TerritorioId]"
+                      refId="Package\TerritorioEmpleado Layer\Territorio Destination.Inputs[OLE DB Destination Input].ExternalColumns[TerritorioId]"
                       dataType="i4"
                       name="TerritorioId" />
                     <externalMetadataColumn
-                      refId="Package\Territorio Layer\Territorio Destination.Inputs[OLE DB Destination Input].ExternalColumns[Territorio]"
+                      refId="Package\TerritorioEmpleado Layer\Territorio Destination.Inputs[OLE DB Destination Input].ExternalColumns[Territorio]"
                       dataType="wstr"
                       length="50"
                       name="Territorio" />
@@ -3411,22 +3411,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Territorio Layer\Territorio Destination.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\TerritorioEmpleado Layer\Territorio Destination.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Territorio Layer\Territorio Destination.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\TerritorioEmpleado Layer\Territorio Destination.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Territorio Layer\Territorio Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\TerritorioEmpleado Layer\Territorio Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\Territorio Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\TerritorioEmpleado Layer\Territorio Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Territorio Layer\Territorio Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\TerritorioEmpleado Layer\Territorio Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Territorio Layer\Territorio Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\TerritorioEmpleado Layer\Territorio Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -3437,35 +3437,829 @@
           </components>
           <paths>
             <path
-              refId="Package\Territorio Layer.Paths[Merge Join Output]"
-              endId="Package\Territorio Layer\Conditional Split.Inputs[Conditional Split Input]"
+              refId="Package\TerritorioEmpleado Layer.Paths[Merge Join Output]"
+              endId="Package\TerritorioEmpleado Layer\Conditional Split.Inputs[Conditional Split Input]"
               name="Merge Join Output"
-              startId="Package\Territorio Layer\Merge Join.Outputs[Merge Join Output]" />
+              startId="Package\TerritorioEmpleado Layer\Merge Join.Outputs[Merge Join Output]" />
             <path
-              refId="Package\Territorio Layer.Paths[New Territorios]"
-              endId="Package\Territorio Layer\Territorio Destination.Inputs[OLE DB Destination Input]"
+              refId="Package\TerritorioEmpleado Layer.Paths[New Territorios]"
+              endId="Package\TerritorioEmpleado Layer\Territorio Destination.Inputs[OLE DB Destination Input]"
               name="New Territorios"
-              startId="Package\Territorio Layer\Conditional Split.Outputs[New Territorios]" />
+              startId="Package\TerritorioEmpleado Layer\Conditional Split.Outputs[New Territorios]" />
             <path
-              refId="Package\Territorio Layer.Paths[OLE DB Source Output]"
-              endId="Package\Territorio Layer\Sort T.Inputs[Sort Input]"
+              refId="Package\TerritorioEmpleado Layer.Paths[OLE DB Source Output]"
+              endId="Package\TerritorioEmpleado Layer\Sort T.Inputs[Sort Input]"
               name="OLE DB Source Output"
-              startId="Package\Territorio Layer\T Territorio Source.Outputs[OLE DB Source Output]" />
+              startId="Package\TerritorioEmpleado Layer\T Territorio Source.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Territorio Layer.Paths[OLE DB Source Output1]"
-              endId="Package\Territorio Layer\Sort K.Inputs[Sort Input]"
+              refId="Package\TerritorioEmpleado Layer.Paths[OLE DB Source Output1]"
+              endId="Package\TerritorioEmpleado Layer\Sort K.Inputs[Sort Input]"
               name="OLE DB Source Output"
-              startId="Package\Territorio Layer\K Territorio Source.Outputs[OLE DB Source Output]" />
+              startId="Package\TerritorioEmpleado Layer\K Territorio Source.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Territorio Layer.Paths[Sort Output]"
-              endId="Package\Territorio Layer\Merge Join.Inputs[Merge Join Left Input]"
+              refId="Package\TerritorioEmpleado Layer.Paths[Sort Output]"
+              endId="Package\TerritorioEmpleado Layer\Merge Join.Inputs[Merge Join Left Input]"
               name="Sort Output"
-              startId="Package\Territorio Layer\Sort T.Outputs[Sort Output]" />
+              startId="Package\TerritorioEmpleado Layer\Sort T.Outputs[Sort Output]" />
             <path
-              refId="Package\Territorio Layer.Paths[Sort Output1]"
-              endId="Package\Territorio Layer\Merge Join.Inputs[Merge Join Right Input]"
+              refId="Package\TerritorioEmpleado Layer.Paths[Sort Output1]"
+              endId="Package\TerritorioEmpleado Layer\Merge Join.Inputs[Merge Join Right Input]"
               name="Sort Output"
-              startId="Package\Territorio Layer\Sort K.Outputs[Sort Output]" />
+              startId="Package\TerritorioEmpleado Layer\Sort K.Outputs[Sort Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\TerritorioVenta Layer"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{EB73EE51-9AED-48AA-A409-BDB4DA47CFCB}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="TerritorioVenta Layer"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\TerritorioVenta Layer\Conditional Split"
+              componentClassID="Microsoft.ConditionalSplit"
+              contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
+              name="Conditional Split"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\TerritorioVenta Layer\Conditional Split.Inputs[Conditional Split Input]"
+                  description="Input to the Conditional Split Transformation"
+                  name="Conditional Split Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\TerritorioVenta Layer\Conditional Split.Inputs[Conditional Split Input].Columns[TerritorioId_K]"
+                      cachedDataType="i4"
+                      cachedName="TerritorioId_K"
+                      lineageId="Package\TerritorioVenta Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioId_K]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\TerritorioVenta Layer\Conditional Split.Outputs[New Territorios]"
+                  description="Output 1 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="New Territorios"
+                  synchronousInputId="Package\TerritorioVenta Layer\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">[ISNULL](#{Package\TerritorioVenta Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioId_K]})</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">ISNULL(TerritorioId_K)</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">0</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\TerritorioVenta Layer\Conditional Split.Outputs[All Territorios]"
+                  description="Default Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  name="All Territorios"
+                  synchronousInputId="Package\TerritorioVenta Layer\Conditional Split.Inputs[Conditional Split Input]">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      name="IsDefaultOut">true</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\TerritorioVenta Layer\Conditional Split.Outputs[Conditional Split Error Output]"
+                  description="Error Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Conditional Split Error Output"
+                  synchronousInputId="Package\TerritorioVenta Layer\Conditional Split.Inputs[Conditional Split Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\TerritorioVenta Layer\K Territorio Source"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="K Territorio Source"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dwh].[TerritorioVenta]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\TerritorioVenta Layer\K Territorio Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.BikeZ_DW.bike 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.BikeZ_DW.bike 1]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioId]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[TerritorioId]"
+                      lineageId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioId]"
+                      name="TerritorioId"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[TerritorioId]"
+                      dataType="i4"
+                      name="TerritorioId" />
+                    <externalMetadataColumn
+                      refId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[Territorio]"
+                      dataType="wstr"
+                      length="50"
+                      name="Territorio" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[TerritorioId]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[TerritorioId]"
+                      name="TerritorioId" />
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\TerritorioVenta Layer\Merge Join"
+              componentClassID="Microsoft.MergeJoin"
+              contactInfo="Merge Join;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Combine two sorted data flows into one using the FULL, LEFT, or INNER join. We recommend this transformation when data flows can be sorted at their sources."
+              name="Merge Join"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of join to perform."
+                  name="JoinType"
+                  typeConverter="JoinType">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the number of columns in the ordering key."
+                  name="NumKeyColumns">1</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the null values are treated as equal values."
+                  name="TreatNullsAsEqual">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Indicates the requested maximum buffers per input before blocking."
+                  name="MaxBuffersPerInput">5</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\TerritorioVenta Layer\Merge Join.Inputs[Merge Join Left Input]"
+                  hasSideEffects="true"
+                  name="Merge Join Left Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\TerritorioVenta Layer\Merge Join.Inputs[Merge Join Left Input].Columns[TerritorioID]"
+                      cachedDataType="i4"
+                      cachedName="TerritorioID"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\TerritorioVenta Layer\Sort T.Outputs[Sort Output].Columns[TerritorioID]" />
+                    <inputColumn
+                      refId="Package\TerritorioVenta Layer\Merge Join.Inputs[Merge Join Left Input].Columns[Territorio]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Territorio"
+                      lineageId="Package\TerritorioVenta Layer\Sort T.Outputs[Sort Output].Columns[Territorio]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\TerritorioVenta Layer\Merge Join.Inputs[Merge Join Right Input]"
+                  hasSideEffects="true"
+                  name="Merge Join Right Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\TerritorioVenta Layer\Merge Join.Inputs[Merge Join Right Input].Columns[TerritorioId]"
+                      cachedDataType="i4"
+                      cachedName="TerritorioId"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\TerritorioVenta Layer\Sort K.Outputs[Sort Output].Columns[TerritorioId]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\TerritorioVenta Layer\Merge Join.Outputs[Merge Join Output]"
+                  isSorted="true"
+                  name="Merge Join Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioID_T]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioID_T]"
+                      name="TerritorioID_T"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\TerritorioVenta Layer\Merge Join.Inputs[Merge Join Left Input].Columns[TerritorioID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\Merge Join.Outputs[Merge Join Output].Columns[Territorio_T]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\TerritorioVenta Layer\Merge Join.Outputs[Merge Join Output].Columns[Territorio_T]"
+                      name="Territorio_T">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\TerritorioVenta Layer\Merge Join.Inputs[Merge Join Left Input].Columns[Territorio]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioId_K]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioId_K]"
+                      name="TerritorioId_K">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\TerritorioVenta Layer\Merge Join.Inputs[Merge Join Right Input].Columns[TerritorioId]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\TerritorioVenta Layer\Sort K"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort K"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\TerritorioVenta Layer\Sort K.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\TerritorioVenta Layer\Sort K.Inputs[Sort Input].Columns[TerritorioId]"
+                      cachedDataType="i4"
+                      cachedName="TerritorioId"
+                      lineageId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioId]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\TerritorioVenta Layer\Sort K.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\Sort K.Outputs[Sort Output].Columns[TerritorioId]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\Sort K.Outputs[Sort Output].Columns[TerritorioId]"
+                      name="TerritorioId"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioId]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\TerritorioVenta Layer\Sort T"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort T"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\TerritorioVenta Layer\Sort T.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\TerritorioVenta Layer\Sort T.Inputs[Sort Input].Columns[TerritorioID]"
+                      cachedDataType="i4"
+                      cachedName="TerritorioID"
+                      lineageId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\TerritorioVenta Layer\Sort T.Inputs[Sort Input].Columns[Territorio]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Territorio"
+                      lineageId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[Territorio]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\TerritorioVenta Layer\Sort T.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\Sort T.Outputs[Sort Output].Columns[TerritorioID]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\Sort T.Outputs[Sort Output].Columns[TerritorioID]"
+                      name="TerritorioID"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\Sort T.Outputs[Sort Output].Columns[Territorio]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\TerritorioVenta Layer\Sort T.Outputs[Sort Output].Columns[Territorio]"
+                      name="Territorio">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[Territorio]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\TerritorioVenta Layer\T Territorio Source"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="T Territorio Source"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[Territorios]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\TerritorioVenta Layer\T Territorio Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.BikeZ.bike]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.BikeZ.bike]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[TerritorioID]"
+                      lineageId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[TerritorioID]"
+                      name="TerritorioID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[Territorio]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[Territorio]"
+                      length="50"
+                      lineageId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].Columns[Territorio]"
+                      name="Territorio"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[TerritorioID]"
+                      dataType="i4"
+                      name="TerritorioID" />
+                    <externalMetadataColumn
+                      refId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[Territorio]"
+                      dataType="wstr"
+                      length="50"
+                      name="Territorio" />
+                    <externalMetadataColumn
+                      refId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[PaisID]"
+                      dataType="wstr"
+                      length="3"
+                      name="PaisID" />
+                    <externalMetadataColumn
+                      refId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output].ExternalColumns[Grupo]"
+                      dataType="wstr"
+                      length="50"
+                      name="Grupo" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[TerritorioID]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[TerritorioID]"
+                      name="TerritorioID" />
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[Territorio]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[Territorio]"
+                      name="Territorio" />
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\TerritorioVenta Layer\Territorio Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="Territorio Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dwh].[TerritorioVenta]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\TerritorioVenta Layer\Territorio Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.BikeZ_DW.bike 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.BikeZ_DW.bike 1]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\TerritorioVenta Layer\Territorio Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\TerritorioVenta Layer\Territorio Destination.Inputs[OLE DB Destination Input].Columns[TerritorioID_T]"
+                      cachedDataType="i4"
+                      cachedName="TerritorioID_T"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\TerritorioVenta Layer\Territorio Destination.Inputs[OLE DB Destination Input].ExternalColumns[TerritorioId]"
+                      lineageId="Package\TerritorioVenta Layer\Merge Join.Outputs[Merge Join Output].Columns[TerritorioID_T]" />
+                    <inputColumn
+                      refId="Package\TerritorioVenta Layer\Territorio Destination.Inputs[OLE DB Destination Input].Columns[Territorio_T]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Territorio_T"
+                      externalMetadataColumnId="Package\TerritorioVenta Layer\Territorio Destination.Inputs[OLE DB Destination Input].ExternalColumns[Territorio]"
+                      lineageId="Package\TerritorioVenta Layer\Merge Join.Outputs[Merge Join Output].Columns[Territorio_T]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\TerritorioVenta Layer\Territorio Destination.Inputs[OLE DB Destination Input].ExternalColumns[TerritorioId]"
+                      dataType="i4"
+                      name="TerritorioId" />
+                    <externalMetadataColumn
+                      refId="Package\TerritorioVenta Layer\Territorio Destination.Inputs[OLE DB Destination Input].ExternalColumns[Territorio]"
+                      dataType="wstr"
+                      length="50"
+                      name="Territorio" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\TerritorioVenta Layer\Territorio Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\TerritorioVenta Layer\Territorio Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\Territorio Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\Territorio Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\TerritorioVenta Layer\Territorio Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\TerritorioVenta Layer\Territorio Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\TerritorioVenta Layer.Paths[Merge Join Output]"
+              endId="Package\TerritorioVenta Layer\Conditional Split.Inputs[Conditional Split Input]"
+              name="Merge Join Output"
+              startId="Package\TerritorioVenta Layer\Merge Join.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\TerritorioVenta Layer.Paths[New Territorios]"
+              endId="Package\TerritorioVenta Layer\Territorio Destination.Inputs[OLE DB Destination Input]"
+              name="New Territorios"
+              startId="Package\TerritorioVenta Layer\Conditional Split.Outputs[New Territorios]" />
+            <path
+              refId="Package\TerritorioVenta Layer.Paths[OLE DB Source Output]"
+              endId="Package\TerritorioVenta Layer\Sort T.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\TerritorioVenta Layer\T Territorio Source.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\TerritorioVenta Layer.Paths[OLE DB Source Output1]"
+              endId="Package\TerritorioVenta Layer\Sort K.Inputs[Sort Input]"
+              name="OLE DB Source Output"
+              startId="Package\TerritorioVenta Layer\K Territorio Source.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\TerritorioVenta Layer.Paths[Sort Output]"
+              endId="Package\TerritorioVenta Layer\Merge Join.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\TerritorioVenta Layer\Sort T.Outputs[Sort Output]" />
+            <path
+              refId="Package\TerritorioVenta Layer.Paths[Sort Output1]"
+              endId="Package\TerritorioVenta Layer\Merge Join.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\TerritorioVenta Layer\Sort K.Outputs[Sort Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -6408,13 +7202,21 @@
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{1B813BDE-AE6B-4B9E-B0F8-904FA864B04F}"
+      DTS:From="Package\TerritorioVenta Layer"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\TerritorioEmpleado Layer" />
+    <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
       DTS:DTSID="{5720B057-AD94-4C57-9608-442C045A79F9}"
       DTS:From="Package\Categoria Layer"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
-      DTS:To="Package\Territorio Layer" />
+      DTS:To="Package\TerritorioVenta Layer" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
@@ -6426,8 +7228,8 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
       DTS:CreationName=""
-      DTS:DTSID="{CED02960-9C1B-4B74-9C04-0AAF99CA2645}"
-      DTS:From="Package\Territorio Layer"
+      DTS:DTSID="{ED1D1339-8AF4-421F-94A2-3637948B2F84}"
+      DTS:From="Package\TerritorioEmpleado Layer"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
       DTS:To="Package\Producto Layer" />
@@ -6461,55 +7263,55 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="156,42.6666666666667"
+          Size="156,43"
           Id="Package\Categoria Layer"
           TopLeft="94.9999957531692,40.3684206093942" />
         <NodeLayout
-          Size="157.333333333334,42.6666666666667"
+          Size="157,43"
           Id="Package\Empleado Layer"
-          TopLeft="130.624994160607,333.701750802504" />
+          TopLeft="137.624994160607,409.701750802504" />
         <NodeLayout
-          Size="152,42.6666666666667"
+          Size="152,43"
           Id="Package\Producto Layer"
-          TopLeft="124.999994412065,251.789470919613" />
+          TopLeft="131.999994412065,327.789470919613" />
         <NodeLayout
-          Size="152,42.6666666666667"
-          Id="Package\Territorio Layer"
+          Size="182,42"
+          Id="Package\TerritorioVenta Layer"
           TopLeft="105.624995278195,144.368419467495" />
         <NodeLayout
-          Size="145.333333333334,42.6666666666667"
+          Size="145,43"
           Id="Package\Tiempo Layer"
-          TopLeft="129.999994188547,426.947365731578" />
+          TopLeft="136.999994188547,502.947365731578" />
         <NodeLayout
-          Size="137.333333333334,42.6666666666667"
+          Size="137,43"
           Id="Package\Venta Layer"
-          TopLeft="124.374994440004,536.684210233328" />
+          TopLeft="131.374994440004,612.684210233328" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="172.999995753169,83.0350872760609">
+          TopLeft="172.999995753169,83.3684206093942">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="8.62499952502574,61.3333321914339"
+              EndConnector="23.6249995250258,60.9999988581008"
               Start="0,0"
-              End="8.62499952502574,53.8333321914339">
+              End="23.6249995250258,53.4999988581008">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.666666095717" />
+                    End="0,26.4999994290504" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,26.666666095717"
-                    Point2="0,30.666666095717"
-                    Point3="4,30.666666095717" />
+                    Point1="0,26.4999994290504"
+                    Point2="0,30.4999994290504"
+                    Point3="4,30.4999994290504" />
                   <mssgle:LineSegment
-                    End="4.62499952502574,30.666666095717" />
+                    End="19.6249995250258,30.4999994290504" />
                   <mssgle:CubicBezierSegment
-                    Point1="4.62499952502574,30.666666095717"
-                    Point2="8.62499952502574,30.666666095717"
-                    Point3="8.62499952502574,34.666666095717" />
+                    Point1="19.6249995250258,30.4999994290504"
+                    Point2="23.6249995250258,30.4999994290504"
+                    Point3="23.6249995250258,34.4999994290504" />
                   <mssgle:LineSegment
-                    End="8.62499952502574,53.8333321914339" />
+                    End="23.6249995250258,53.4999988581008" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -6520,7 +7322,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="200.999994412065,294.456137586279">
+          TopLeft="207.999994412065,370.456137586279">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -6553,42 +7355,8 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="181.624995278195,187.035086134161">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="19.3749991338699,64.754384785451"
-              Start="0,0"
-              End="19.3749991338699,57.254384785451">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,28.3771923927255" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,28.3771923927255"
-                    Point2="0,32.3771923927255"
-                    Point3="4,32.3771923927255" />
-                  <mssgle:LineSegment
-                    End="15.3749991338699,32.3771923927255" />
-                  <mssgle:CubicBezierSegment
-                    Point1="15.3749991338699,32.3771923927255"
-                    Point2="19.3749991338699,32.3771923927255"
-                    Point3="19.3749991338699,36.3771923927255" />
-                  <mssgle:LineSegment
-                    End="19.3749991338699,57.254384785451" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="202.666660855214,469.614032398245">
+          TopLeft="209.666660855214,545.614032398245">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -6599,17 +7367,17 @@
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.5350889175416" />
+                    End="0,29.5350889175415" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,29.5350889175416"
-                    Point2="0,33.5350889175416"
-                    Point3="-4,33.5350889175416" />
+                    Point1="0,29.5350889175415"
+                    Point2="0,33.5350889175415"
+                    Point3="-4,33.5350889175415" />
                   <mssgle:LineSegment
-                    End="-5.62499974854302,33.5350889175416" />
+                    End="-5.62499974854302,33.5350889175415" />
                   <mssgle:CubicBezierSegment
-                    Point1="-5.62499974854302,33.5350889175416"
-                    Point2="-9.62499974854302,33.5350889175416"
-                    Point3="-9.62499974854302,37.5350889175416" />
+                    Point1="-5.62499974854302,33.5350889175415"
+                    Point2="-9.62499974854302,33.5350889175415"
+                    Point3="-9.62499974854302,37.5350889175415" />
                   <mssgle:LineSegment
                     End="-9.62499974854302,59.5701778350833" />
                 </mssgle:SegmentCollection>
@@ -6622,7 +7390,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="209.291660827274,376.368417469171">
+          TopLeft="216.291660827274,452.368417469171">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -6646,6 +7414,66 @@
                     Point3="-29.5138888609494,34.016907589487" />
                   <mssgle:LineSegment
                     End="-29.5138888609494,43.0789482624077" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="203,42"
+          Id="Package\TerritorioEmpleado Layer"
+          TopLeft="108,232" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="196.624995278195,186.368419467495">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="12.875004721805,45.631580532505"
+              Start="0,0"
+              End="12.875004721805,38.131580532505">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.8157902662525" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.8157902662525"
+                    Point2="0,22.8157902662525"
+                    Point3="4,22.8157902662525" />
+                  <mssgle:LineSegment
+                    End="8.875004721805,22.8157902662525" />
+                  <mssgle:CubicBezierSegment
+                    Point1="8.875004721805,22.8157902662525"
+                    Point2="12.875004721805,22.8157902662525"
+                    Point3="12.875004721805,26.8157902662525" />
+                  <mssgle:LineSegment
+                    End="12.875004721805,38.131580532505" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="208.749997206033,274">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,53.789470919613"
+              Start="0,0"
+              End="0,46.289470919613">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.289470919613" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7517,40 +8345,40 @@
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Territorio Layer">
+    design-time-name="Package\TerritorioVenta Layer">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="109.333333333334,42.6666666666667"
-          Id="Package\Territorio Layer\Sort K"
+          Size="109,43"
+          Id="Package\TerritorioVenta Layer\Sort K"
           TopLeft="493.041651957359,217.298239030721" />
         <NodeLayout
-          Size="169.333333333334,42.6666666666667"
-          Id="Package\Territorio Layer\K Territorio Source"
+          Size="169,43"
+          Id="Package\TerritorioVenta Layer\K Territorio Source"
           TopLeft="461.999986231327,103.999996900559" />
         <NodeLayout
-          Size="178.666666666667,42.6666666666667"
-          Id="Package\Territorio Layer\Territorio Destination"
+          Size="179,43"
+          Id="Package\TerritorioVenta Layer\Territorio Destination"
           TopLeft="754.999977499247,222.999993354082" />
         <NodeLayout
-          Size="108,42.6666666666667"
-          Id="Package\Territorio Layer\Sort T"
+          Size="108,43"
+          Id="Package\TerritorioVenta Layer\Sort T"
           TopLeft="216.999993532896,221.999993383885" />
         <NodeLayout
-          Size="168,42.6666666666667"
-          Id="Package\Territorio Layer\T Territorio Source"
+          Size="168,43"
+          Id="Package\TerritorioVenta Layer\T Territorio Source"
           TopLeft="182.999994546175,105.999997675419" />
         <NodeLayout
-          Size="132,42.6666666666667"
-          Id="Package\Territorio Layer\Merge Join"
+          Size="132,43"
+          Id="Package\TerritorioVenta Layer\Merge Join"
           TopLeft="386.999988466502,390.999988347292" />
         <NodeLayout
-          Size="157.333333333334,42.6666666666667"
-          Id="Package\Territorio Layer\Conditional Split"
+          Size="157,43"
+          Id="Package\TerritorioVenta Layer\Conditional Split"
           TopLeft="625.999981343747,391.999988973141" />
         <EdgeLayout
-          Id="Package\Territorio Layer.Paths[Sort Output1]"
+          Id="Package\TerritorioVenta Layer.Paths[Sort Output1]"
           TopLeft="547.708318624025,259.964905697388">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7584,7 +8412,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Territorio Layer.Paths[Sort Output]"
+          Id="Package\TerritorioVenta Layer.Paths[Sort Output]"
           TopLeft="270.999993532896,264.666660050551">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7618,7 +8446,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Territorio Layer.Paths[OLE DB Source Output1]"
+          Id="Package\TerritorioVenta Layer.Paths[OLE DB Source Output1]"
           TopLeft="547.187485761009,146.666663567226">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7640,7 +8468,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Territorio Layer.Paths[OLE DB Source Output]"
+          Id="Package\TerritorioVenta Layer.Paths[OLE DB Source Output]"
           TopLeft="268.999994039536,148.666664342085">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7662,7 +8490,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Territorio Layer.Paths[New Territorios]"
+          Id="Package\TerritorioVenta Layer.Paths[New Territorios]"
           TopLeft="704.666648010413,391.999988973141">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7698,7 +8526,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Territorio Layer.Paths[Merge Join Output]"
+          Id="Package\TerritorioVenta Layer.Paths[Merge Join Output]"
           TopLeft="518.999988466502,412.83332199355">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -7723,7 +8551,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Territorio Layer\K Territorio Source">
+    design-time-name="Package\TerritorioVenta Layer\K Territorio Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7736,7 +8564,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Territorio Layer\Territorio Destination">
+    design-time-name="Package\TerritorioVenta Layer\Territorio Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -7749,7 +8577,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Territorio Layer\T Territorio Source">
+    design-time-name="Package\TerritorioVenta Layer\T Territorio Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8609,6 +9437,238 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Venta Layer\Venta Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\TerritorioEmpleado Layer">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="109,43"
+          Id="Package\TerritorioEmpleado Layer\Sort K"
+          TopLeft="493.041651957359,217.298239030721" />
+        <NodeLayout
+          Size="169,43"
+          Id="Package\TerritorioEmpleado Layer\K Territorio Source"
+          TopLeft="461.999986231327,103.999996900559" />
+        <NodeLayout
+          Size="179,43"
+          Id="Package\TerritorioEmpleado Layer\Territorio Destination"
+          TopLeft="754.999977499247,222.999993354082" />
+        <NodeLayout
+          Size="108,43"
+          Id="Package\TerritorioEmpleado Layer\Sort T"
+          TopLeft="216.999993532896,221.999993383885" />
+        <NodeLayout
+          Size="168,43"
+          Id="Package\TerritorioEmpleado Layer\T Territorio Source"
+          TopLeft="182.999994546175,105.999997675419" />
+        <NodeLayout
+          Size="132,43"
+          Id="Package\TerritorioEmpleado Layer\Merge Join"
+          TopLeft="386.999988466502,390.999988347292" />
+        <NodeLayout
+          Size="157,43"
+          Id="Package\TerritorioEmpleado Layer\Conditional Split"
+          TopLeft="625.999981343747,391.999988973141" />
+        <EdgeLayout
+          Id="Package\TerritorioEmpleado Layer.Paths[Sort Output1]"
+          TopLeft="547.708318624025,259.964905697388">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-74.0416634908565,131.035082649904"
+              Start="0,0"
+              End="-74.0416634908565,123.535082649904">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,73.6794801337755" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,73.6794801337755"
+                    Point2="0,77.6794801337755"
+                    Point3="-4,77.6794801337755" />
+                  <mssgle:LineSegment
+                    End="-70.0416634908565,77.6794801337755" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-70.0416634908565,77.6794801337755"
+                    Point2="-74.0416634908565,77.6794801337755"
+                    Point3="-74.0416634908565,81.6794801337755" />
+                  <mssgle:LineSegment
+                    End="-74.0416634908565,123.535082649904" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\TerritorioEmpleado Layer.Paths[Sort Output]"
+          TopLeft="270.999993532896,264.666660050551">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="181.999994933605,126.333328296741"
+              Start="0,0"
+              End="181.999994933605,118.833328296741">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,59.1666641483705" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,59.1666641483705"
+                    Point2="0,63.1666641483705"
+                    Point3="4,63.1666641483705" />
+                  <mssgle:LineSegment
+                    End="177.999994933605,63.1666641483705" />
+                  <mssgle:CubicBezierSegment
+                    Point1="177.999994933605,63.1666641483705"
+                    Point2="181.999994933605,63.1666641483705"
+                    Point3="181.999994933605,67.1666641483705" />
+                  <mssgle:LineSegment
+                    End="181.999994933605,118.833328296741" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\TerritorioEmpleado Layer.Paths[OLE DB Source Output1]"
+          TopLeft="547.187485761009,146.666663567226">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,70.6315754634955"
+              Start="0,0"
+              End="0,63.1315754634955">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,63.1315754634955" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\TerritorioEmpleado Layer.Paths[OLE DB Source Output]"
+          TopLeft="268.999994039536,148.666664342085">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,73.3333290417993"
+              Start="0,0"
+              End="0,65.8333290417993">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,65.8333290417993" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\TerritorioEmpleado Layer.Paths[New Territorios]"
+          TopLeft="704.666648010413,391.999988973141">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="139.666662822167,-126.333328952392"
+              Start="0,0"
+              End="139.666662822167,-118.833328952392">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-59.1666644761961" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-59.1666644761961"
+                    Point2="0,-63.1666644761961"
+                    Point3="4,-63.1666644761961" />
+                  <mssgle:LineSegment
+                    End="135.666662822167,-63.1666644761961" />
+                  <mssgle:CubicBezierSegment
+                    Point1="135.666662822167,-63.1666644761961"
+                    Point2="139.666662822167,-63.1666644761961"
+                    Point3="139.666662822167,-67.1666644761961" />
+                  <mssgle:LineSegment
+                    End="139.666662822167,-118.833328952392" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="35.4857532860836,-58.1666644761961,68.69515625,9.470703125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\TerritorioEmpleado Layer.Paths[Merge Join Output]"
+          TopLeft="518.999988466502,412.83332199355">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="106.999992877245,0"
+              Start="0,0"
+              End="99.4999928772452,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="99.4999928772452,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\TerritorioEmpleado Layer\K Territorio Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\TerritorioEmpleado Layer\Territorio Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

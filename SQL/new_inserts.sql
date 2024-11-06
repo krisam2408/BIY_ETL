@@ -49,7 +49,7 @@ GO
 -- Genero puede ser ['M', 'F']
 -- Territorio puede ser nulo
 INSERT INTO BikeZ.dbo.Empleados (EmpleadoID, Cargo, FechaNacimiento, EstadoCivil, Genero, FechaContratacion, HorasVacaciones, TerritorioID)
-VALUES(301, 'Fired', '1988-07-19', 'M', 'F', '2000-10-31', 24, NULL)
+VALUES(302, 'Empleado Falso', '1988-07-19', 'M', 'F', '2000-10-31', 24, NULL)
 GO
 
 SELECT TOP(10) * FROM BikeZ.dbo.Empleados

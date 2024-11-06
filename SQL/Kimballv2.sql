@@ -29,11 +29,19 @@ CREATE TABLE dwh.Producto
 )
 GO
 
-CREATE TABLE dwh.Territorio
+CREATE TABLE dwh.TerritorioEmpleado
 (
     TerritorioId    INT NOT NULL,
     Territorio      NVARCHAR(50) NOT NULL,
-    CONSTRAINT PK_Territorio PRIMARY KEY CLUSTERED (TerritorioId)
+    CONSTRAINT PK_TerritorioEmpleado PRIMARY KEY CLUSTERED (TerritorioId)
+)
+GO
+
+CREATE TABLE dwh.TerritorioVenta
+(
+    TerritorioId    INT NOT NULL,
+    Territorio      NVARCHAR(50) NOT NULL,
+    CONSTRAINT PK_TerritorioVenta PRIMARY KEY CLUSTERED (TerritorioId)
 )
 GO
 
@@ -43,7 +51,7 @@ CREATE TABLE dwh.Empleado
     TerritorioId    INT NOT NULL,
     CONSTRAINT PK_Empleado PRIMARY KEY CLUSTERED (EmpleadoId),
     CONSTRAINT FK_Territorio_Empleado FOREIGN KEY(TerritorioId)
-        REFERENCES dwh.Territorio(TerritorioId)
+        REFERENCES dwh.TerritorioEmpleado(TerritorioId)
 )
 GO
 
@@ -70,7 +78,7 @@ CREATE TABLE dwh.Venta
 	CONSTRAINT FK_Tiempo_Venta FOREIGN KEY(TiempoId)
 		REFERENCES dwh.Tiempo(TiempoId),
     CONSTRAINT FK_Territorio_Venta FOREIGN KEY(TerritorioId)
-		REFERENCES dwh.Territorio(TerritorioId),
+		REFERENCES dwh.TerritorioVenta(TerritorioId),
 	CONSTRAINT FK_Producto_Venta FOREIGN KEY (ProductoId)
 		REFERENCES dwh.Producto(ProductoId),
 	CONSTRAINT FK_Empleado_Venta FOREIGN KEY(EmpleadoId)
@@ -82,7 +90,11 @@ INSERT INTO dwh.Categoria (CategoriaId, Categoria)
 VALUES(0, 'SIN CATEGORIA')
 GO
 
-INSERT INTO dwh.Territorio (TerritorioId, Territorio)
+INSERT INTO dwh.TerritorioEmpleado (TerritorioId, Territorio)
+VALUES(0, 'SIN TERRITORIO')
+GO
+
+INSERT INTO dwh.TerritorioVenta (TerritorioId, Territorio)
 VALUES(0, 'SIN TERRITORIO')
 GO
 
